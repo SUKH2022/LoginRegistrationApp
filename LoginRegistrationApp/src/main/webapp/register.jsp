@@ -36,6 +36,7 @@
 </script>
 </head>
 <body>
+	<!-- Register Page -->
     <div align="center">
         <h1>Register</h1>
         <form name="registerForm" action="registerServlet" method="post" onsubmit="return validateForm()">

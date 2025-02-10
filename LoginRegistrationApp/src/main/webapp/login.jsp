@@ -7,8 +7,9 @@
 <title>Registration Page</title>
 </head>
 <body>
+	
     <div align="center">
-        <h1>Register</h1>
+        <h1>Login</h1>
         <form action="registerServlet" method="post">
             <table>
                 <tr>
