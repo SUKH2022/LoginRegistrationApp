@@ -17,7 +17,7 @@ public class UserDao {
         // Load the JDBC driver
         Class.forName("com.mysql.cj.jdbc.Driver");
 
-        try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/assignment3", "root", "password")) {
+        try (Connection connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/Local Server", "root", "password")) {
             // Create a PreparedStatement
             PreparedStatement ps = connection.prepareStatement(INSERT_USERS_SQL);
             ps.setString(1, user.getUsername());
