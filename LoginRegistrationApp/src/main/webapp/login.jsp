@@ -4,34 +4,23 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Registration Page</title>
+<title>Login Page</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-	
-    <div align="center">
+	<!-- Login Page -->
+    <div class="container">
         <h1>Login</h1>
-        <form action="registerServlet" method="post">
-            <table>
-                <tr>
-                    <td>UserName:</td>
-                    <td><input type="text" name="username" required /></td>
-                </tr>
-                <tr>
-                    <td>Password:</td>
-                    <td><input type="password" name="password" required /></td>
-                </tr>
-                <tr>
-                    <td>Email:</td>
-                    <td><input type="email" name="email" required /></td>
-                </tr>
-                <tr>
-                    <td colspan="2" align="center">
-                        <input type="submit" value="Register" />
-                    </td>
-                </tr>
-            </table>
+        <form name="loginForm" action="registerServlet" method="post">
+             <label for="username">UserName</label>
+            <input type="text" id="username" name="username" required />
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required />
+
+            <button type="submit">Login</button>
         </form>
-        <p>Already have an account? <a href="login.jsp">Login here</a></p>
+        <p>Don't have an account? <a href="register.jsp">Register here</a></p>
     </div>
 </body>
 </html>

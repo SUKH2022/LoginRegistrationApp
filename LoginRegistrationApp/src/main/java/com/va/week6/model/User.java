@@ -10,9 +10,20 @@ package com.va.week6.model;
 public class User {
     private String username;
     private String password;
-    private String email;
+    private String company;
+    private String payRoll;
+    private String fullName;
+    private String referenceIndicator;
+    private String jobTitle;
+    private String functionField;
+    private String subFunction;
+    private String section;
+    private String location;
+    private String building;
+    private String room;
+    private String requesterTel;
 
-    // Getters and Setters
+    // Add getters and setters for all fields
     public String getUsername() {
         return username;
     }
@@ -29,11 +40,99 @@ public class User {
         this.password = password;
     }
 
-    public String getEmail() {
-        return email;
+    public String getCompany() {
+        return company;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setCompany(String company) {
+        this.company = company;
+    }
+
+    public String getPayRoll() {
+        return payRoll;
+    }
+
+    public void setPayRoll(String payRoll) {
+        this.payRoll = payRoll;
+    }
+
+    public String getFullName() {
+        return fullName;
+    }
+
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
+    }
+
+    public String getReferenceIndicator() {
+        return referenceIndicator;
+    }
+
+    public void setReferenceIndicator(String referenceIndicator) {
+        this.referenceIndicator = referenceIndicator;
+    }
+
+    public String getJobTitle() {
+        return jobTitle;
+    }
+
+    public void setJobTitle(String jobTitle) {
+        this.jobTitle = jobTitle;
+    }
+
+    public String getFunctionField() {
+        return functionField;
+    }
+
+    public void setFunctionField(String functionField) {
+        this.functionField = functionField;
+    }
+
+    public String getSubFunction() {
+        return subFunction;
+    }
+
+    public void setSubFunction(String subFunction) {
+        this.subFunction = subFunction;
+    }
+
+    public String getSection() {
+        return section;
+    }
+
+    public void setSection(String section) {
+        this.section = section;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public String getBuilding() {
+        return building;
+    }
+
+    public void setBuilding(String building) {
+        this.building = building;
+    }
+
+    public String getRoom() {
+        return room;
+    }
+
+    public void setRoom(String room) {
+        this.room = room;
+    }
+
+    public String getRequesterTel() {
+        return requesterTel;
+    }
+
+    public void setRequesterTel(String requesterTel) {
+        this.requesterTel = requesterTel;
     }
 }
