@@ -1,7 +1,5 @@
 package com.va.week6.model;
 
-import java.sql.Date;
-
 /*
  * @author - Sukhpreet Saini
  * @date - 10/2/2025

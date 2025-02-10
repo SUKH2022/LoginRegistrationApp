@@ -41,7 +41,7 @@
         <form name="registerForm" action="registerServlet" method="post" onsubmit="return validateForm()">
             <table>
                 <tr>
-                    <td>Username:</td>
+                    <td>UserName:</td>
                     <td><input type="text" name="username" required /></td>
                 </tr>
                 <tr>
