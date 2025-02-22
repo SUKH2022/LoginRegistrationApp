@@ -25,13 +25,13 @@ In this part of the project, two forms were created using HTML/JSP pages for log
 
 **Images**:
   
-![Login Form](./img/login.png)  
+![Login Form](./src/main/webapp/img/login.png)  
 _Screenshot of the Login form_ 👨‍💻
 
-![Register Form](./img/register.png)  
+![Register Form](./src/main/webapp/img/register.png)  
 _Screenshot of the Register form_ ✨
 
-![Success](./img/success.png)  
+![Success](./src/main/webapp/img/success.png)  
 _Screenshot of the Success page_ ✨
 
 ---
