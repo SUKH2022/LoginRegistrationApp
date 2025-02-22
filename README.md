@@ -1,4 +1,4 @@
-# Assignment 3: Web Login & Registration System 📝💻
+# Assignment 2.2 and 3: Web Login & Registration System 📝💻
 
 ## Overview 🌐
 
