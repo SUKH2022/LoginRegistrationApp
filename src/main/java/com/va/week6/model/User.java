@@ -3,7 +3,7 @@ package com.va.week6.model;
 /*
  * @author - Sukhpreet Saini
  * @date - 10/2/2025
- * Description - Assignment1_webdynimicApp 
+ * Description - Assignment2.2_webdynimicApp 
  * 
  */
 
@@ -11,7 +11,7 @@ public class User {
     private String username;
     private String password;
     private String company;
-    private String payRoll;
+    private Integer payRoll;
     private String fullName;
     private String referenceIndicator;
     private String jobTitle;
@@ -21,8 +21,15 @@ public class User {
     private String location;
     private String building;
     private String room;
-    private String requesterTel;
+    private Integer requesterTel;
 
+    // Temporary fields for decryption
+    // Making both the field transient for security
+    // The transient keyword is a modifier that tells Java to ignore an attribute when serializing an object.
+    private transient String originalFullName;
+    private transient String originalPayRoll;
+    private transient String originalRequesterTel;
+    		
     // Add getters and setters for all fields
     public String getUsername() {
         return username;
@@ -48,11 +55,11 @@ public class User {
         this.company = company;
     }
 
-    public String getPayRoll() {
+    public Integer getPayRoll() {
         return payRoll;
     }
 
-    public void setPayRoll(String payRoll) {
+    public void setPayRoll(Integer payRoll) {
         this.payRoll = payRoll;
     }
 
@@ -128,11 +135,35 @@ public class User {
         this.room = room;
     }
 
-    public String getRequesterTel() {
+    public Integer getRequesterTel() {
         return requesterTel;
     }
 
-    public void setRequesterTel(String requesterTel) {
+    public void setRequesterTel(Integer requesterTel) {
         this.requesterTel = requesterTel;
+    }
+
+    public String getOriginalPayRoll() {
+        return originalPayRoll;
+    }
+
+    public void setOriginalPayRoll(String originalPayRoll) {
+        this.originalPayRoll = originalPayRoll;
+    }
+
+    public String getOriginalRequesterTel() {
+        return originalRequesterTel;
+    }
+
+    public void setOriginalRequesterTel(String originalRequesterTel) {
+        this.originalRequesterTel = originalRequesterTel;
+    }
+
+    public String getOriginalFullName() {
+        return originalFullName;
+    }
+
+    public void setOriginalFullName(String originalFullName) {
+        this.originalFullName = originalFullName;
     }
 }
